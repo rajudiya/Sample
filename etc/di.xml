@@ -7,4 +7,7 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="product_plugin" type="Vendor\Sample\Plugin\ProductPlugin" />
+    </type>
 </config>
