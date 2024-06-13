@@ -10,4 +10,11 @@
     <type name="Magento\Catalog\Model\Product">
         <plugin name="product_plugin" type="Vendor\Sample\Plugin\ProductPlugin" />
     </type>
+    <type name="Magento\Shipping\Model\Shipping">
+        <arguments>
+            <argument name="carriers" xsi:type="array">
+                <item name="customshipping" xsi:type="object">Vendor\Sample\Model\Carrier\Custom</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
