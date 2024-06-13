@@ -17,4 +17,5 @@
             </argument>
         </arguments>
     </type>
+    <preference for="Vendor\Sample\Api\OrderRepositoryInterface" type="Vendor\Sample\Model\OrderRepository"/>
 </config>
